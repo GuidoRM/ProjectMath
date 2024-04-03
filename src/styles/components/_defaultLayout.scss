@@ -1,0 +1,11 @@
+.defaultLayout {
+    display: flex;
+    gap: 1rem;
+    width: calc(100% - 100px);
+    min-height: 100vh;
+    background-color: #2a2251;
+    margin-left: 100px;
+    background-image: url('/public/background-system.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}

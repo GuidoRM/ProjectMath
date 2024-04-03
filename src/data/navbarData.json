@@ -1,0 +1,50 @@
+[
+    {
+        "title": "USUARIO",
+        "icon": "/nav-icon/user-icon.png",
+        "to": "/user",
+        "alt": "Botón de usuario."
+    },
+    {
+        "title": "PÉNITENCIARIOS",
+        "icon": "/nav-icon/penitentiary-icon.png",
+        "to": "/penitentiary",
+        "alt": "Botón de pénitenciarios."
+    },
+    {
+        "title": "PRISIONEROS",
+        "icon": "/nav-icon/prisoners-icon.png",
+        "to": "/prisoners",
+        "alt": "Botón de prisioneros."
+    },
+    {
+        "title": "CÁMARAS",
+        "icon": "/nav-icon/cam-icon.png",
+        "to": "/cams",
+        "alt": "Botón de cámaras."
+    },
+    {
+        "title": "MAPA",
+        "icon": "/nav-icon/location-icon.png",
+        "to": "/map",
+        "alt": "Botón de mapa."
+    },
+    {
+        "title": "REGISTROS \n CÁMARAS",
+        "icon": "/nav-icon/register-icon.png",
+        "to": "/register-cams",
+        "alt": "Botón de registros de cámaras."
+    },
+    {
+        "title": "IA ALERTA",
+        "icon": "/nav-icon/alert-icon.png",
+        "to": "/alert-ia",
+        "alt": "Botón de IA alerta."
+    },
+    {
+        "title": "MANTENIMIENTO",
+        "icon": "/nav-icon/maintenance-icon.png",
+        "to": "/maintenance",
+        "alt": "Botón de mantenimiento."
+    }
+]

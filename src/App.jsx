@@ -1,33 +1,27 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Route, Routes } from "react-router-dom"
+import Login from "./pages/Login"
+import DefaultLayout from "./components/DefaultLayout"
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Routes>
+        <Route path="/" element={<DefaultLayout />}>
+          <Route index element={<Login />} />
+          <Route path="/user" element={<Login />} />
+          <Route path="/penitentiary" element={<Login />} />
+          <Route path="/prisoners" element={<Login />} />
+          <Route path="/cams" element={<Login />} />
+          <Route path="/map" element={<Login />} />
+          <Route path="/register-cams" element={<Login />} />
+          <Route path="/alert-ia" element={<Login />} />
+          <Route path="/maintenance" element={<Login />} />
+
+        </Route>
+
+        <Route path="/login" element={<Login />} />
+      </Routes>
     </>
   )
 }
