@@ -8,7 +8,7 @@ const NavButton = ({ to, title, icon, alt }) => {
         <li>
             <NavLink to={to}>
                 <img src={icon} alt={alt} />
-                {title}
+                <h3>{title}</h3>
             </NavLink>
         </li>
     )

@@ -21,13 +21,14 @@ $heading-fontsize-xs: normal normal 500 1rem $font-title;
 $body-fontsize-regular: normal normal 400 1rem $font-body;
 
 /*Font Colors*/
-$heading-fontcolor: #263238;
-$body-fontcolor: #414750;
-$disabled-fontcolor: #565E69;
-$placeholder-fontcolor: #6B7480;
-$informative-fontcolor: #1C51A4;
-$success-fontcolor: #1E4620;
-$warning-fontcolor: #82620F;
-$error-fontcolor: #AB2816;
+$system-background-color: #2a2251;
+
+/*Navbar Width Sizes*/
+$navbar-width-mobile: 70px;
+$navbar-width-others: 110px;
+
+/*Background System*/
+$system-background-image-mobile: '/public/background-system-mobile.png';
+$system-background-image-others: '/public/background-system.png';
 
 

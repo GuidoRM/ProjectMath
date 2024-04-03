@@ -1,10 +1,15 @@
 .navbar {
-    width: 100px;
+    width: $navbar-width-mobile;
     height: 100vh;
     background-color: #d4d3dc;
     position: fixed;
     top: 0;
     left: 0;
+
+    
+    @include responsive($lg){
+        width: $navbar-width-others;
+    }
 
     ul {
         height: 100%;
@@ -26,7 +31,7 @@
                 justify-content: center;
                 flex-direction: column;
                 gap: 0.5rem;
-                font-size: 10px;
+                font-size: 0;
                 text-decoration: none;
                 text-align: center;
                 width: 100%;
@@ -34,6 +39,18 @@
                 color: black;
                 background: transparent;
                 transition: all .2s ease-in-out;
+
+                h3 {
+                    display: none;
+                }
+
+                @include responsive($lg){
+                    font-size: 10px;
+
+                    h3 {
+                        display: block;
+                    }
+                }
 
                 &.active {
                     background: #ffe7145c;

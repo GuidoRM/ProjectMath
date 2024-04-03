@@ -1,11 +1,19 @@
 .defaultLayout {
     display: flex;
     gap: 1rem;
-    width: calc(100% - 100px);
+    width: calc(100% - $navbar-width-mobile);
     min-height: 100vh;
-    background-color: #2a2251;
-    margin-left: 100px;
-    background-image: url('/public/background-system.png');
+    background-color: $system-background-color;
+    margin-left: $navbar-width-mobile;
+    background-image: url($system-background-image-mobile);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: 70%;
+
+    @include responsive($lg) {
+        width: calc(100% - $navbar-width-others);
+        margin-left: $navbar-width-others;
+        background-image: url($system-background-image-others);
+        background-size: unset;
+    }
 }
