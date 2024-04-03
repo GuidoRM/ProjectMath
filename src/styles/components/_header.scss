@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+
+    &__title {
+        font-size: 2rem;
+
+        @include responsive($lg) {
+            font-size: 2.5rem;
+        }
+    }
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        flex-direction: row-reverse;
+        letter-spacing: 3px;
+
+        &-title {
+            color: white;
+            font-size: 1rem;
+            display: none;
+
+            @include responsive($lg) {
+                display: block;
+            }
+        }
+
+        &-image {
+            width: 50px;
+
+            @include responsive($lg) {
+                width: 80px;
+            }
+        }
+    }
+}

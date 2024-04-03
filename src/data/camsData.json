@@ -1,0 +1,44 @@
+[
+    {
+        "name": "CAM-1",
+        "ip": "192.168.4.10",
+        "videoPath": "/video/video-cam1.mp4",
+        "isActive": true,
+        "sectionName": "SECCIÓN A"
+    },
+    {
+        "name": "CAM-2",
+        "ip": "192.168.4.11",
+        "videoPath": "/video/video-cam2.mp4",
+        "isActive": true,
+        "sectionName": "SECCIÓN B"
+    },
+    {
+        "name": "CAM-3",
+        "ip": "192.168.4.12",
+        "videoPath": "/video/video-cam3.mp4",
+        "isActive": true,
+        "sectionName": "SECCIÓN C"
+    },
+    {
+        "name": "CAM-4",
+        "ip": "192.168.4.13",
+        "videoPath": "/video/video-cam4.mp4",
+        "isActive": true,
+        "sectionName": "SECCIÓN A"
+    },
+    {
+        "name": "CAM-5",
+        "ip": "192.168.4.14",
+        "videoPath": "/video/video-cam5.mp4",
+        "isActive": true,
+        "sectionName": "SECCIÓN B"
+    },
+    {
+        "name": "CAM-6",
+        "ip": "192.168.4.15",
+        "videoPath": "/video/video-cam6.mp4",
+        "isActive": true,
+        "sectionName": "SECCIÓN C"
+    }
+]

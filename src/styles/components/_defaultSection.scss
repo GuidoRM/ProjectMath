@@ -1,0 +1,21 @@
+.dafaultSection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+    gap: 1rem;
+
+    @include responsive($lg) {
+        gap: 2rem;
+        padding: 2rem;
+    }
+
+    h2 {
+        color: white;
+
+        @include responsive($lg) {
+            font-size: 3rem;
+        }
+    }
+
+}
